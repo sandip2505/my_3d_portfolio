@@ -26,15 +26,18 @@ import codecrew from "./company/codecrew.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import wordpress from "./tech/wordpress.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import portfolio from "./tripguide.png";
-import ems from "./tripguide.png";
-import panchal from "./tripguide.png";
 import bandhan from "./tripguide.png";
-import pixostory from "./tripguide.png";
+
+import portfolio from "./projects/portfolio.png";
+import ems from "./projects/ems.png";
+import panchal from "./projects/panchal.jpg";
+import pixostory from "./projects/pixostory.png";
+import travel from "./projects/travel.png";
 
 export {
   logo,
@@ -47,7 +50,7 @@ export {
   close,
   css,
   docker,
-  figma,
+  wordpress,
   git,
   html,
   javascript,
@@ -68,6 +71,7 @@ export {
   codecrew,
   portfolio,
   ems,
+  travel,
   panchal,
   bandhan,
   pixostory,
