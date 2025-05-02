@@ -13,7 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
+  wordpress,
   docker,
   codecrew,
   shopify,
@@ -23,6 +23,7 @@ import {
   threejs,
   portfolio,
   ems,
+  travel,
   panchal,
   bandhan,
   pixostory,
@@ -36,10 +37,10 @@ export const navLinks = [
 ];
 
 const services = [
-  { title: "MERN Stack Developer", icon: web },
+  { title: "Node.js Developer", icon: backend },
+  { title: "React Js Developer", icon: web },
   { title: "React Native Developer", icon: mobile },
-  { title: "Backend Developer (Node.js)", icon: backend },
-  { title: "WordPress Plugin Developer", icon: creator },
+  { title: "WordPress Developer", icon: creator },
 ];
 
 const technologies = [
@@ -52,9 +53,8 @@ const technologies = [
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
   { name: "MongoDB", icon: mongodb },
-  { name: "Three JS", icon: threejs },
   { name: "Git", icon: git },
-  { name: "Figma", icon: figma },
+  { name: "WordPress", icon: wordpress },
   { name: "Docker", icon: docker },
 ];
 
@@ -71,14 +71,15 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer (Trainee)",
+    title: "PHP/WordPress Developer (Trainee)",
     company_name: "CodeCrew Infotech",
     icon: codecrew,
     iconBg: "#383E56",
     date: "Dec 2021 - Apr 2022",
     points: [
-      "Worked on custom web apps using React.js, Node.js, and MongoDB.",
-      "Created REST APIs and handled user authentication and authorization.",
+      "During a 1-year, I focused on expanding my technical skills by learning PHP and WordPress.",
+      "This period was dedicated to working on college projects, where I applied these technologies to develop and customize web solutions.",
+      "This hands-on experience enhanced my proficiency in PHP and WordPress, preparing me for more advanced roles in web development.",
     ],
   },
   {
@@ -88,10 +89,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2022 - Present",
     points: [
-      "Developed scalable full-stack applications with MERN stack.",
-      "Built reusable components, created API endpoints, and integrated databases.",
-      "Contributed to plugin development, Shopify projects, and cloud-based apps.",
-      "Worked on company projects like Pixostory and EMS Portal.",
+      "During my 3-year career break, I focused on learning Full Stack Development.",
+      "proficiency in Node.js, React.js, React Native, and the MERN stack,",
+      "front-end and back-end development to create dynamic web and mobile applications.",
     ],
   },
 ];
@@ -145,7 +145,7 @@ const projects = [
       { name: "nodejs", color: "green-text-gradient" },
       { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: ems, // Replace with correct travel image if available
+    image: tripguide, // Replace with correct travel image if available
     source_code_link: "https://github.com/your-username/tours-travel-app", // Replace with actual
   },
   {
@@ -158,7 +158,7 @@ const projects = [
       { name: "elementor", color: "pink-text-gradient" },
     ],
     image: pixostory,
-    source_code_link: "https://pixostory.in/",
+    source_code_link: "https://pixostory.com",
   },
   {
     name: "Panchal Samaj Community App",
