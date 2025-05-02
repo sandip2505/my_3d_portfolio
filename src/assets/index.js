@@ -32,6 +32,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import bandhan from "./tripguide.png";
+
 import portfolio from "./projects/portfolio.png";
 import ems from "./projects/ems.png";
 import panchal from "./projects/panchal.jpg";
