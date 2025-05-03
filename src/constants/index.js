@@ -26,6 +26,10 @@ import {
   travel,
   panchal,
   bandhan,
+  onelife,
+  openawards,
+  gtaa,
+  tateeda,
   pixostory,
 } from "../assets";
 
@@ -111,7 +115,7 @@ const testimonials = [
     name: "Mehul Shah",
     designation: "Project Manager",
     company: "Pixostory",
-    image: "https://randomuser.me/api/portraits/men/56.jpg",
+    image: "https://randomuser.me/api/portraits/men/50.jpg",
   },
   {
     testimonial:
@@ -122,7 +126,6 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/men/56.jpg",
   },
 ];
-
 const projects = [
   {
     name: "Employee Management System (EMS)",
@@ -172,15 +175,16 @@ const projects = [
     source_code_link: "https://github.com/your-username/panchal-community-app", // Replace with actual
   },
   {
-    name: "Bandhan – Wedding Planner Platform",
+    name: "Tateeda",
     description:
-      "A wedding planner web app that connects clients with vendors, offering features like bookings, inquiries, and vendor profiles.",
+      "TATEEDA GLOBAL, a custom software development company and staff augmentation provider, boasts a talent pool of over 100 experienced engineers.",
     tags: [
-      { name: "mern", color: "blue-text-gradient" },
-      { name: "cloudinary", color: "green-text-gradient" },
+      { name: "wordpress", color: "blue-text-gradient" },
+      { name: "php", color: "green-text-gradient" },
+      { name: "elementor", color: "pink-text-gradient" },
     ],
-    image: bandhan,
-    source_code_link: "https://github.com/your-username/bandhan-wedding-planner", // Replace with actual
+    image: tateeda,
+    source_code_link: "https://tateeda.com/", // Replace with actual
   },
   {
     name: "Developer Portfolio Website",
@@ -188,10 +192,46 @@ const projects = [
       "A modern and animated portfolio website showcasing my experience, skills, and projects using React and Tailwind CSS.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
+      { name: "three js", color: "pink-text-gradient" },
       { name: "tailwind", color: "green-text-gradient" },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/your-username/portfolio-website", // Replace with actual
+    source_code_link: "https://sandipganava.com", // Replace with actual
+  },
+  {
+    name: "OneLife Indian",
+    description: "E-commerce platform for selling electronic gadgets with secure payment, customer reviews, and WooCommerce integration.",
+    tags: [
+      { name: "woocommerce", color: "blue-text-gradient" },
+      { name: "wordpress", color: "green-text-gradient" },
+      { name: "php", color: "pink-text-gradient" },
+    ],
+    image: onelife,
+    source_code_link: "https://onelifeindian.com/",
+  },
+  {
+    name: "Openawards",
+    description:
+      "Built a responsive WordPress site for an awarding body, showcasing qualifications and ensuring accessibility, performance, and regulatory compliance.",
+    tags: [
+      { name: "wordpress", color: "blue-text-gradient" },
+      { name: "php", color: "green-text-gradient" },
+      { name: "custom plugin", color: "pink-text-gradient" }
+    ],
+    image: openawards,
+    source_code_link: "https://openawards.theprogressteam.com/", // Replace with actual
+  },
+  {
+    name: "GTAA – Global Travel Agent Association",
+    description:
+      "Developed a WordPress platform for GTAA to support global travel agents with resources, membership tools, and community features.",
+    tags: [
+      { name: "wordpress", color: "blue-text-gradient" },
+      { name: "php", color: "green-text-gradient" },
+      { name: "custom plugin", color: "pink-text-gradient" }
+    ],
+    image: gtaa,
+    source_code_link: "https://gtaa.co.in/", // Replace with actual
   },
 ];
 

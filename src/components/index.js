@@ -8,6 +8,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import NpmPackages from './NpmPackages';
+import Certifications from './Certifications';
 
 
 export {
@@ -19,6 +21,8 @@ export {
   Works,
   Feedbacks,
   Contact,
+  NpmPackages,
+  Certifications,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 

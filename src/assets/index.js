@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import coursera from "./company/coursera.svg";
+import mylogo from "./mylogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -38,13 +40,19 @@ import ems from "./projects/ems.png";
 import panchal from "./projects/panchal.jpg";
 import pixostory from "./projects/pixostory.png";
 import travel from "./projects/travel.png";
+import tateeda from "./projects/tateeda.png";
+import openawards from "./projects/openawards.png";
+import gtaa from "./projects/gtaa.png";
+import onelife from "./projects/onelife.png";
 
 export {
   logo,
+  mylogo,
   backend,
   creator,
   mobile,
   web,
+  coursera,
   github,
   menu,
   close,
@@ -74,5 +82,9 @@ export {
   travel,
   panchal,
   bandhan,
+  openawards,
+  gtaa,
+  onelife,
+  tateeda,
   pixostory,
 };
